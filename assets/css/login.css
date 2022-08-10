@@ -4,7 +4,7 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  background: url('/assets/images/login_bg.jpg') no-repeat center;
+  background: url("/assets/images/login_bg.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -15,12 +15,13 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
 }
 
 .title-box {
   height: 60px;
   background: url('/assets/images/login_title.png') no-repeat center;
+
 }
 
 .reg-box {
@@ -48,8 +49,11 @@ body {
   position: absolute;
   left: 10px;
   top: 10px;
+
 }
 
 .layui-input {
+
+
   padding-left: 32px;
 }
