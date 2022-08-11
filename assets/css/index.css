@@ -4,7 +4,7 @@
 }
 
 .iconfont {
-  margin-right: 8px;
+  margin-right: 10px;
 }
 
 .layui-icon {
@@ -34,7 +34,7 @@ a {
 }
 
 .layui-side-scroll .userinfo {
-  border-bottom: 1px solid #282b33;
+  border-bottom: 1px solid #282B33;
 }
 
 .layui-nav-img {
@@ -49,23 +49,10 @@ a {
   background-color: #009688;
   border-radius: 50%;
   line-height: 40px;
-  text-align: center;
+  text-align: 40px;
   font-size: 20px;
   color: #fff;
   position: relative;
   top: 4px;
   margin-right: 10px;
-}
-
-.layui-nav-item a {
-  font-size: 12px;
-}
-
-.links {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.links a {
-  font-size: 12px;
 }
