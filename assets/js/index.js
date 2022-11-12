@@ -29,7 +29,7 @@ function getUserInfo() {
                 return layui.layer.msg('获取用户信息失败！')
             }
             //调用renderAvatar渲染用户的头像
-            renderAvatar(res.data)
+            generateChart(data)
 
         },
         //不论成功还是失败，都会调用complete函数

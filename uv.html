@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    111
+    <script src="/assets/lib/layui/layui.all.js"></script>
+    <!-- 导入JQuery -->
+    <script src="/assets/lib/jquery.js"></script>
+    <script src="/assets/js/baseAPI.js"></script>
+    <script src="/assets/js/uv.js"></script>
+    // 请求 soho 接口， 返回值如下：
+    // var returnCitySN = {"cip": "120.228.1.183", "cid": "CN", "cname": "CHINA"};
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+    <script>
+        // session储存 IP 地址，需要的时候再用
+        sessionStorage.setItem("userIp", returnCitySN["cip"]);
+        console.log(returnCitySN["cip"])
+    </script>
+
+</body>
+
+</html>
